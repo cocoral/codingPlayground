@@ -1,0 +1,61 @@
+
+.app-container{
+    margin: 0 auto;
+    padding: 20px 0;
+    max-width: 960px;
+}
+
+.app-input-container{
+    text-align:center;  
+    max-width:900px;  
+    margin: 0 auto;
+}
+
+.app-input-error{
+    color: red;
+    display: none;
+    margin: 5px 0 0;
+    text-align: left;
+}
+
+.app-input-error.active{
+    display: block
+}
+
+.app-text-input{
+    box-sizing: border-box;
+    width: 100%;
+    padding: 10px 20px;
+    display: block;
+}
+
+.app-submit{
+    margin: 15px auto 0;
+}
+
+.app-output{
+    list-style: none;
+    padding-left: 0
+}
+
+.app-output-list{
+    border: 1px solid lightgrey;
+    padding: 10px;
+    margin-bottom: 10px;
+    position:relative;
+}
+
+.app-output-list{
+    border-color:lightgrey;
+}
+
+.app-delete{
+    position: absolute;
+    right: 10px;
+    display: none;
+    cursor: pointer;
+}
+
+.app-output-list:hover .app-delete{
+    display: inline;
+}

@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+    <main class="app-container">
+        <form class="app-input-container" id="noteForm">
+            <p>Add a dish name: </p>
+            <input type="text" id="app-text-input" class="app-text-input" placeholder="Dish name">
+            <p class="app-input-error"><small>Cannot add a dish with an empty name. </small></p>
+            <input class="app-submit" type="submit" id="app-submit" value="Add!">
+        </form>
+        <div class="app-output-container">
+            <ul class="app-output" id="app-output">
+                <li class="app-output-list">Your dish name will be displayed at the end of this list.<span
+                        class="app-delete" contenteditable="false">x</span></li>
+                <li class="app-output-list">Hover and click x to delete a dish!<span class="app-delete"
+                        contenteditable="false">x</span>
+                </li>
+            </ul>
+        </div>
+    </main>
+</body>
+<script src="app.js"></script>
+
+</html>
